@@ -1,7 +1,7 @@
 FROM node:18
 
 # ENV PORT 80
-EXPOSE 80
+EXPOSE 8080
 
 WORKDIR /src
 COPY . /src/
