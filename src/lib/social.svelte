@@ -4,4 +4,4 @@
     export let alt: string;
 </script>
 
-<a target="_blank" href="{href}"><img src="{img}" class="h-[40px]" alt="{alt}"/></a>
+<a target="_blank" href="{href}" class="md:my-4"><img src="{img}" class="lg:h-[40px] md:h-[60px]" alt="{alt}"/></a>
