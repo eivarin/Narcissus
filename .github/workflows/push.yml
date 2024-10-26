@@ -7,6 +7,11 @@ on:
 
 jobs:
   J1-1:
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
     uses: ./.github/workflows/imageBuildAndPublish.yml
     with:
       path: '.'
